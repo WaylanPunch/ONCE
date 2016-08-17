@@ -9,5 +9,5 @@ import com.way.once.base.BasePresenter;
 public interface LoginPresenter extends BasePresenter {
 
     void login();
-
+    void toggle();
 }

@@ -35,6 +35,15 @@ public class LoginPresenterImpl implements LoginPresenter {
     }
 
     @Override
+    public void toggle() {
+        if (mView.getToggleCondition()) {
+            mView.toggleToHide();
+        } else {
+            mView.toggleToShow();
+        }
+    }
+
+    @Override
     public void start() {
         //TODO
     }

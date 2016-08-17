@@ -17,4 +17,13 @@ public interface LoginView extends BaseView<LoginPresenter> {
 
     String getPassword();
 
+    boolean getToggleCondition();
+
+    void toggleToHide();
+
+    void toggleToShow();
+
+    void hidePart2();
+
+    void showPart2();
 }
